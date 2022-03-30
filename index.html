@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=te, initial-scale=1.0">
+    <title>Clase 3 - Elementos Html</title>
+</head>
+<body>
+    <!-- Títulos o encabezados en Html -->
+    <!-- Niveles o jerarquías para nuestros títulos, accesibilidad e información al navegador -->
+    <!-- Atajo para comentario: Shift + Alt + A /si no es con shift, usar control-->
+    <h1>Soy un h1</h1>
+    <h2>Soy un h2</h2>
+    <h3>Soy un h3</h3>
+    <h4>Soy un h4</h4>
+    <h5>Soy un h5</h5>
+    <h6>Soy un h6</h6>
+
+    <!-- Párrafos. Puedo usar tantos como necesite-->
+    <p>Soy un parrafo. Tengo mucho texto</p>
+    <p>Soy otro párrafo. Puedo usar tantos como necesite</p>
+
+    <!-- Listas. Ordenadas o desordenadas -->
+    <ul type="square"> <!--Lista desordenada -->
+        <li>Item 1</li>
+        <li>
+            <ul>
+                <li> soy un sub item</li>
+            </ul>
+        </li>
+        <ul>
+            <li> soy otro sub item</li>
+        </ul>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ul>
+
+    <ol start="3"> <!--Lista ordenada--> <!-- El atributo START sirve para definir en que numero empieza la lista ordenada. se puede contar alreves con el atributo REVERSED pero no es buena practica, lo ideal es con codigo CSS -->
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+        <li>Item 4</li>
+    </ol>
+    <span>Texto adicional 1</span> <!-- Texto sin importancia que quiero agregar. no es titulo ni parrafo -->
+    <span>Texto adicional 2</span> <!-- Es una etiqueta de texto en linea -->
+    <br /> <!-- El br genera un salto de página o una línea vacía para tener un espacio en la web. LO IDEAL es usar codigo CSS, pero en proyectos pequeños es válido -->
+    <span>Texto adicional 3</span>
+
+    <!-- Imagenes -->
+    <img src="./imagen/Yo.png" alt="texto alternativo" width="200" height="230"/> <!-- Este elemento NO tiene etiqueta de cierre. ES DE TIPO LINEAL. el atributo width significa ancho y es de html. height es alto y de html-->
+
+    <br />
+
+    <!-- Videos -->
+    <video src="./recursos/Front End.mp4" width="500" height="300" controls autoplay></video> <!-- el atributo controls es para que se reproduzca. el atributo autoplay lo que hace es decirle al navegador q reproduzca automaticamente al cargar la pagina -->
+
+    <!-- Las imagenes en formato SVG te permiten agrandar o modificar tamaño sin pixelar -->
+
+    <audio src="./recursos/lofi ejemplo.mp3" controls></audio>
+    
+</body>
+</html>
